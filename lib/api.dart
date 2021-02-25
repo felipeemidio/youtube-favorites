@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:youtube_favorites/models/video.dart';
 
 // put your YouTube v3 API key here.
-const API_KEY = 'AIzaSyBr_bH0QWfl5aVKTb2mFp3X_-1k219Mzt0';
+const API_KEY = '';
 
 // "https://www.googleapis.com/youtube/v3/search?part=snippet&q=$search&type=video&key=$API_KEY&maxResults=10"
 // "https://www.googleapis.com/youtube/v3/search?part=snippet&q=$search&type=video&key=$API_KEY&maxResults=10"
