@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:youtube_favorites/api.dart';
 import 'package:youtube_favorites/models/video.dart';
