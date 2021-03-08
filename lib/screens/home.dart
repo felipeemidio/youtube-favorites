@@ -4,6 +4,7 @@ import 'package:youtube_favorites/blocs/favorites_bloc.dart';
 import 'package:youtube_favorites/blocs/videos_bloc.dart';
 import 'package:youtube_favorites/delegates/data_search.dart';
 import 'package:youtube_favorites/models/video.dart';
+import 'package:youtube_favorites/screens/favorites.dart';
 import 'package:youtube_favorites/widgets/video_tile.dart';
 
 class Home extends StatelessWidget {
@@ -36,7 +37,9 @@ class Home extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.star),
             onPressed: (){
-
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => Favorites()),
+              );
             },
           ),
           IconButton(
